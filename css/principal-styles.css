@@ -1,0 +1,84 @@
+body {
+  background: #fcfafa;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+.company-name {
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 40px;
+  color: #686868;
+  margin-right: -10px;
+}
+.menu-item {
+  margin-left: 80px;
+  margin-top: 54px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #959595;
+}
+.music-text {
+  margin-top: 90px;
+  margin-left: 130px;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 42px;
+  width: 493px;
+  color: #686868;
+}
+.button {
+  cursor: pointer;
+  background: #fdfcfc;
+  border: 1px solid #686868;
+  border-radius: 5px;
+  width: 149px;
+  height: 54px;
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.button-text {
+  width: 132px;
+  height: 46px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 17px;
+  text-align: center;
+  color: #686868;
+  margin-top: 5px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #959595;
+  margin-top: 170px;
+}
+
+.photo-container {
+  position: absolute;
+  width: 665px;
+  height: 692px;
+  right: 0px;
+  top: -23px;
+}
+
+.icon {
+  margin-right: 10px;
+}

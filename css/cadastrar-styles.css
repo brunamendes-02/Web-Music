@@ -1,0 +1,120 @@
+body {
+  background: #fcfafa;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+.menu-principal {
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 40px;
+  color: #686868;
+  margin-right: -14px;
+  text-decoration: none;
+  margin-top: 37px;
+}
+.marked-menu-item {
+  margin-left: 80px;
+  margin-top: 54px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #686868;
+}
+.menu-item {
+  margin-left: 80px;
+  margin-top: 54px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #959595;
+}
+.page-title {
+  font-weight: bold;
+  font-size: 50px;
+
+  color: #686868;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aling-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-form-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.second-sub-form-container {
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+}
+
+.input {
+  background: #fcfafa;
+  border: 1px solid #686868;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 219px;
+  height: 43px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.upload-input {
+  background: #fcfafa;
+  border: 1px solid #686868;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 360px;
+  height: 43px;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.description-input {
+  background: #fcfafa;
+  border: 1px solid #686868;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 360px;
+  height: 107px;
+  font-size: 16px;
+  padding: 10px;
+  padding-bottom: 80px;
+  margin-bottom: 25px;
+}
+.submit-button {
+  cursor: pointer;
+  background: #fcfafa;
+  border: 1px solid #686868;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 219px;
+  margin-left: 42%;
+  margin-top: 20px;
+  height: 43px;
+}
+.submit-button-text {
+  font-weight: normal;
+  font-size: 18px;
+  color: #8f8383;
+  margin-top: 10px;
+}
+.font-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
